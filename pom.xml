@@ -31,6 +31,7 @@
 
 	<developers>
 		<developer>
+			<id>tfcporciuncula</id>
 			<name>Thiago Porciúncula</name>
 			<email>thiago.porciuncula@softplan.com.br</email>
 			<organization>Softplan</organization>
@@ -108,6 +109,9 @@
 								</goals>
 							</execution>
 						</executions>
+						<configuration>
+                			<additionalparam>-Xdoclint:none</additionalparam>
+            			</configuration>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
